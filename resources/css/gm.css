@@ -1,0 +1,435 @@
+body {
+	background-color: #FFFFFF;
+	/* background-color: #9BFF9B; */
+	font-family: Open Sans, 'Raleway';
+	font-weight: 300;
+	padding: 0px;
+	margin: 0px;	
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+span {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-weight: 300;	
+}
+
+h2 {
+	font-weight: 300;	
+}
+
+h3 {
+	font-weight: 300;	
+}
+
+.something {
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;	
+	border-radius: 10px;
+	width: 500px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 60px;
+	float: left;	
+}
+
+.sectionTitle {
+	margin-top: 160px;
+	margin-bottom: 180px;
+	font-size: 3em;
+}
+
+.messageSpacer {
+	height: 300px;
+}
+
+.gmHeader {
+
+}
+
+.gmBanner {
+	width: 100%;
+	height: 1000px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #AAAAAA;
+	text-align: center;
+	padding-top: 300px;
+	overflow-y: hidden;
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-image: url("../images/banner.png");
+}
+
+.gmCookiePolicy { 
+	width: 100%;
+	opacity: 0.5;
+	background-color: #444444;
+	color: #FFFFFF;
+	font-size: 1em;
+}
+
+.gmBanner p {
+	font-style: italic;
+	font-weight: 10;
+	font-size: 2em;
+}
+
+.gmNavigationBar {
+	width: 100%;
+	height: 100px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #AAAAAA;
+	background-color: white;
+	overflow-x: hidden;
+	z-index: 30;
+}
+
+.gmNavigationContacts {
+	padding: 0px;
+	margin-left: 40px;
+	margin-top: 5px;
+	line-height: 10px;
+	float: left;
+	width: 530px;
+}
+
+.gmNavigationContacts h1 {
+	font-weight: 100;
+	font-size: 1.5em;
+}
+
+.gmNavigationContacts h2 {
+	font-weight: 100;
+	font-size: 1.1em;
+}
+
+.gmNavigationLinks {
+	float: left;
+	text-align: right;
+	margin-top: 40px;
+}
+
+.gmNutritionLink {
+	border-bottom-color: #9BFF9B; 
+}
+
+.gmServicesLink {
+	border-bottom-color: #A4D1FF; 
+}
+
+.gmAddressLink {
+	border-bottom-color: #FFFFB9; 
+}
+
+.underline {
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	font-weight: bold;
+}
+
+.navigationLink {
+	margin-left: 40px;
+}
+
+.navigationLink a {
+	font-style: normal;
+	color: black;
+	text-decoration: none;
+}
+
+.fixed {
+    left: 0;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.gmNutrition {
+	background-color: #9BFF9B;
+	width: 100%;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #AAAAAA;
+	display: inline-block;
+}
+
+.gmServices {
+	background-color: #A4D1FF;
+	width: 100%;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #AAAAAA;
+	display: inline-block;
+}
+
+.gmAddresses {
+	background-color: #FFFFB9;
+	width: 100%;
+	text-align: center;
+	border-bottom-style: dotted;
+	border-bottom-width: 3px;
+	border-bottom-color: #AAAAAA;
+	display: inline-block;
+}
+
+.gmMessage {
+	width: auto;
+	padding: 0px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+
+.gmMessageIcon {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #AAAAAA;	
+	background-color: #F9F9F9;
+	width: 260px;
+	height: 260px;
+	border-radius: 130px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.aristotele {
+	background-image: url("../images/ippocrate_head.png");
+}
+
+.healthyfood {
+	background-image: url("../images/healthyfood.png");
+}
+
+.gmMessageText {
+	margin-top: 60px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 100;
+}
+
+.gmMessageTextRight {
+	margin-left: 300px;
+}
+
+.gmMessageTextLeft {
+	margin-right: 300px;
+}
+
+.gmPyramTitle {
+	width: 100%;
+	text-align: center;
+	
+}
+
+.pyram {
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sweet { 
+	height: 154px;
+	background-image: url("../images/pyram06.png");
+}
+
+.oils { 
+	height: 99px;
+	background-image: url("../images/pyram05.png");
+}
+
+.meat { 
+	height: 100px;
+	background-image: url("../images/pyram04.png");
+}
+
+.cereals { 
+	height: 107px;
+	background-image: url("../images/pyram03.png");
+}
+
+.fruit { 
+	height: 109px;
+	background-image: url("../images/pyram02.png");
+}
+
+.water { 
+	height: 116px;
+	background-image: url("../images/pyram01.png");
+}
+
+.gmDocIntroduction {
+	width: 100%;
+	position: relative;
+}
+
+.gmSunnySky {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 100%;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #7490AD;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #7490AD;
+}
+
+.gmDocIntroductionDetails {
+	background-color: white;
+	left: 33%;
+	top: 15%;
+	width: 35%;
+	position: absolute;
+	opacity: 0.8;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #AAAAAA;
+	padding: 0px 20px 20px 20px;
+}
+
+.gmDocIntroductionDetails strong {
+	font-weight: 600;
+}
+
+table.gmDocServices {
+	width: 80%;
+	border-style: none;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+table.gmDocServices tr {
+	margin: 0px;
+	padding: 0px;
+}
+
+table.gmDocServices td {
+	width: 33%;
+	border-style: solid;
+	border-color: #6A7C89;
+	border-width: 1px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 40px 30px 40px 30px;
+	margin: 0;
+	background-color: white;
+	color: #6A7C89;
+}
+
+table.gmDocServices td h4 {
+	color: #000000;
+}
+
+.gmAddressDetails {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	margin-bottom: 100px;
+	font-size: 1.2em;
+}
+
+.gmAddressDetailsName {
+	font-size: 1.5em;
+}
+
+.gmAddressDetailsText {
+
+}
+
+.gmAddressDetailsPhone {
+	
+}
+
+.gmAddressDetailsMail {
+	
+}
+.gmMap {
+    margin-left: 10%;
+    margin-right: 10%;
+	padding: 0;
+	border-color: #6A7C89;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.gmTransports {
+    display: table;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.gmTransportDetails {
+    display: table-cell;
+    height: 100px;
+    text-align: left;
+    width: 30%
+}
+
+.gmTransportDetailsLogo {
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 75px;
+	height: 75px;
+	float: left;
+	display: inline-block;
+}
+
+.gmTransportDetailsDescription {
+	margin-left: 80px;
+}
+
+.gmTransportDetailsDescription h4 {
+	margin: 0px;
+	padding: 20px 0 0 0;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinkit {
+	animation: blink 1s;
+	animation-iteration-count: infinite;
+}
